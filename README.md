@@ -1,7 +1,7 @@
 # ChatGPTPrompts
 a repository of text prompts to preload chat gpt threads with novel functionality
 
-## Here is some more info on how to create a chat GPT propmt https://zapier.com/blog/gpt-3-prompt/
+## Here is some more info on how to create a chat GPT prompt https://zapier.com/blog/gpt-3-prompt/
 
 the following tools are created as a repository for examples for educational purposes that I spent time playing with as a pet project. any of the following text prompts are updated on a rolling basis and is meant to demonstrate what is possible after conversing with Chat GPT to learn its strengths, weaknesses and exploits. feel free to copy these prompts in the text files of this repo to learn, or just have a little fun!
 
