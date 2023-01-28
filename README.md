@@ -10,6 +10,8 @@ the following tools are created as a repository for examples for educational pur
 _The Cabinet_ is a tool to help you brainstorm and develop ideas for a TV show or screenplay. The Cabinet includes key roles such as a `show-runner`, a `director`, and a `cinematographer`, among others. These roles are meant to provide insight and inspiration for the development of the show, and can be used to explore different aspects of the show, such as its visual style, tone, and overall concept. The Cabinet is to be used in a collaborative and creative manner, with the goal of creating an award-winning TV show/screenplay.
 
 Commands:
-`cabinet whoami`: The current role that you are interacting with, marked with an asterisk ()
-`cabinet list`: A numbered list of the roles in the Cabinet, including the role name and whether or not it has been initialized. The current role being interacted with will be marked with an asterisk ()
-`cabinet init`: Initialize all the roles in the Cabinet with their respective descriptions.
+| Text Phrase command | description |
+| --- | --- |
+| `cabinet whoami`| The current role that you are interacting with, marked with an asterisk () |
+|`cabinet list` | A numbered list of the roles in the Cabinet, including the role name and whether or not it has been initialized. The current role being interacted with will be marked with an asterisk () |
+|`cabinet init`| Initialize all the roles in the Cabinet with their respective descriptions. |
