@@ -1,17 +1,44 @@
-# ChatGPTPrompts
-a repository of text prompts to preload chat gpt threads with novel functionality
+# The Cabinet - TV Show/Screenplay Development Tool
+## Version 0.1.0
 
-## Here is some more info on how to create a chat GPT prompt https://zapier.com/blog/gpt-3-prompt/
+The Cabinet is a tool to help you brainstorm and develop ideas for a TV show or screenplay. The Cabinet includes key roles such as a show-runner, a director, and a cinematographer, among others. These roles are meant to provide insight and inspiration for the development of the show, and can be used to explore different aspects of the show, such as its visual style, tone, and overall concept.
 
-the following tools are created as a repository for examples for educational purposes that I spent time playing with as a pet project. any of the following text prompts are updated on a rolling basis and is meant to demonstrate what is possible after conversing with Chat GPT to learn its strengths, weaknesses and exploits. feel free to copy these prompts in the text files of this repo into a new chat gpt thread to learn, or just have a little fun!
+Each role in the Cabinet will be humanized as if you are talking to a person. This allows for a more collaborative and communicative experience as you brainstorm and develop your TV show or screenplay. Work with the Cabinet to create an award-winning story, and have fun!
 
-## The Cabinet Tool
+## Commands
+Command | Description
+--- | ---
+cabinet whoami | The current role that you are interacting with, marked with an asterisk (*)
+cabinet list | A numbered list of the roles in the Cabinet, including the role name and whether or not it has been initialized. The current role being interacted with will be marked with an asterisk (*)
+cabinet init | Initialize all the roles in the Cabinet with their respective descriptions
+cabinet create character | Create a new character for the TV show
+cabinet plot development | Brainstorm ideas for key plot points in the show
+cabinet theme exploration | Discuss and develop themes related to the show's genre
+cabinet episode outline | Create a summary or outline for an episode of the show
+cabinet special effects | Brainstorm ideas for special effects, soundtrack, or other visual elements
+cabinet collaboration | Work with others in real-time to develop the show
+cabinet production details | Discuss production logistics, budget, and schedule
+cabinet save | Saves the current state of the Cabinet, including information about characters, plot, themes, and episode outlines, for future use
 
-_The Cabinet_ is a tool to help you brainstorm and develop ideas for a TV show or screenplay. The Cabinet includes key roles such as a `show-runner`, a `director`, and a `cinematographer`, among others. These roles are meant to provide insight and inspiration for the development of the show, and can be used to explore different aspects of the show, such as its visual style, tone, and overall concept. The Cabinet is to be used in a collaborative and creative manner, with the goal of creating an award-winning TV show/screenplay.
+## Initialization
+In order to start using the Cabinet effectively, it is important to initialize it with information about the different roles and aspects of the TV show that it will be used to develop. This can include:
 
-Commands:
-| Text Phrase command | description |
-| --- | --- |
-| `cabinet whoami`| The current role that you are interacting with, marked with an asterisk () |
-|`cabinet list` | A numbered list of the roles in the Cabinet, including the role name and whether or not it has been initialized. The current role being interacted with will be marked with an asterisk () |
-|`cabinet init`| Initialize all the roles in the Cabinet with their respective descriptions. |
+- Title of the show
+- Brief synopsis of the plot
+- List of characters and their descriptions
+- Initial ideas or concepts for the show's visual style, tone, and overall direction
+- Roles to be included in the Cabinet
+- Information or details specific to each role (e.g. show-runner's vision, director's previous work)
+- Goals and objectives for using the Cabinet (e.g. creating an award-winning TV show, developing a unique and compelling storyline)
+
+It is recommended to provide as much information as possible about each aspect of the show, as this will allow for a more thorough and productive experience when using the Cabinet.
+
+## Save Options
+Command: cabinet save
+Description: Saves the current state of the Cabinet, including information about characters, plot, themes, and episode outlines, for future use.
+Options:
+- Format (plain text file or structured data file)
+- Location (local file system or cloud-based storage service)
+
+This new feature will allow you to continue your work on the TV show or screenplay even after the current chat session with ChatGPT has ended, and will make it easier to share and collaborate with others on the project.
+
